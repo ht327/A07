@@ -1,0 +1,112 @@
+:root {
+    --accent-color: #800000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 80%;
+    margin: auto;
+    border: 2px solid var(--accent-color);
+}
+
+h1, h2, h3, p, ul {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+ul {
+    margin-left: 2em;
+}
+
+a:hover,
+a:focus {
+    font-style: italic;
+    color: var(--accent-color);
+}
+
+h1 {
+    font-size: 150%;
+}
+h2 {
+    font-size: 130%;
+    color: var(--accent-color);
+}
+h3 {
+    font-size: 105%;
+}
+
+header {
+    border-bottom: 2px solid var(--accent-color);
+    background: linear-gradient(30deg, #f6bb73 0%, white 30%, white 65%, #f6bb73 100%);
+    padding: 1em 0;
+}
+
+header img {
+    float: left;
+    margin: 0.75em 1em;
+}
+
+header h2 {
+    font-size: 170%;
+    padding-bottom: 0;
+}
+
+header h3 {
+    font-size: 130%;
+    font-style: italic;
+    padding-bottom: 1em;
+}
+
+.large {
+    font-size: 125%;
+    text-shadow: 2px 2px 5px #aaa;
+}
+
+sup {
+    text-shadow: 1px 1px 3px #aaa;
+}
+
+main {
+    clear: left;
+    padding: 0 1em 1em 1em;
+}
+
+main h1 {
+    border-top: 2px solid var(--accent-color);
+    border-bottom: 2px solid var(--accent-color);
+    border-radius: 12px;
+    padding: 0.5em;
+}
+
+blockquote {
+    font-style: italic;
+    padding-left: 1em;
+}
+
+main img {
+    border: 4px double var(--accent-color);
+    border-radius: 10px;
+}
+
+footer {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+a:focus {
+    outline: 2px dashed var(--accent-color);
+    outline-offset: 4px;
+}
